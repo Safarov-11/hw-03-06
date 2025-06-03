@@ -5,7 +5,7 @@
     new City { Id = 3, Name = "Bokhtar" },
     new City { Id = 4, Name = "Kulob" },
     new City { Id = 5, Name = "Dushanbe" },
-    new City { Id = 6, Name = "Tursunzoda" },
+    new City { Id = 6, Name = "Norak" },
     new City { Id = 7, Name = "Dushanbe" },
     new City { Id = 8, Name = "Vahdat" },
     new City { Id = 9, Name = "Asht" },
@@ -241,3 +241,105 @@ List<Person> persons = new List<Person>
 //         System.Console.WriteLine(p.personsName + " " + p.PersonAge);
 //     }
 // }
+
+
+
+
+//--------------------------------------------------
+
+
+
+//Home_Task_03-06
+// //#1
+// var personWithLargeNames = persons.Where(p => p.Name.Length > 4);
+// foreach (var p in personWithLargeNames)
+// {
+//     System.Console.WriteLine(p.Name + " " + p.Name.Length);
+// }
+
+
+// //#2
+// var personByCity = persons.Join(
+//     cities,
+//     p => p.CityId,
+//     c => c.Id,
+//     (p, c) => new
+//     {
+//         PersonName = p.Name,
+//         CityName = c.Name,
+//         PersonAge = p.Age
+//     }
+// ).GroupBy(c => c.CityName).Select(p => p.OrderBy(p => p.PersonAge).First());
+
+// foreach (var pc in personByCity)
+// {
+//     System.Console.WriteLine(pc.CityName + " " + pc.PersonName + " " + pc.PersonAge);
+    
+// }
+
+
+// //#3
+// var personByCity1 = persons.Join(
+//     cities,
+//     p => p.CityId,
+//     c => c.Id,
+//     (p, c) => new
+//     {
+//         PersonName = p.Name,
+//         CityName = c.Name,
+//         PersonAge = p.Age
+//     }
+// ).GroupBy(c => c.CityName);
+
+// foreach (var pc in personByCity1)
+// {
+//     System.Console.WriteLine(pc.Key + " " + pc.Average(p => p.PersonAge));
+
+// }
+
+
+// //#4
+// var personByCity = persons.Join(
+//     cities,
+//     p => p.CityId,
+//     c => c.Id,
+//     (p, c) => new
+//     {
+//         PersonName = p.Name,
+//         CityName = c.Name
+//     }
+// ).GroupBy(c => c.CityName);
+
+// foreach (var pc in personByCity)
+// {
+//     System.Console.WriteLine(pc.Key);
+//     foreach (var p in pc)
+//     {
+//         System.Console.WriteLine(p.PersonName + " " + p.CityName);
+//     }
+//     System.Console.WriteLine();
+// }
+
+
+//#5
+var personByCity2 = persons.Join(
+    cities,
+    p => p.CityId,
+    c => c.Id,
+    (p, c) => new
+    {
+        PersonName = p.Name,
+        CityName = c.Name,
+        PersonAge = p.Age
+    }
+).Where(c => c.CityName[0] == 'N' || c.CityName[0] == 'L').GroupBy(c => c.CityName);
+foreach (var pc in personByCity2)
+{
+    System.Console.WriteLine(pc.Key);
+    foreach (var p in pc)
+    {
+        System.Console.WriteLine(p.PersonName);
+    }
+    System.Console.WriteLine();
+}
+

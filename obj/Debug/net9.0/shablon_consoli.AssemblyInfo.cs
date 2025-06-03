@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("shablon_consoli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7c452a9429c8a6ac4a5e889dab19b3d61fa5bf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4d32068cf6c9dbd226b4d3fb60ccac0fe416315")]
 [assembly: System.Reflection.AssemblyProductAttribute("shablon_consoli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("shablon_consoli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
