@@ -1,0 +1,14 @@
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\bin\Debug\net9.0\shablon_consoli.exe
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\bin\Debug\net9.0\shablon_consoli.deps.json
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\bin\Debug\net9.0\shablon_consoli.runtimeconfig.json
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\bin\Debug\net9.0\shablon_consoli.dll
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\bin\Debug\net9.0\shablon_consoli.pdb
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.dll
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\refint\shablon_consoli.dll
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.pdb
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\ref\shablon_consoli.dll
