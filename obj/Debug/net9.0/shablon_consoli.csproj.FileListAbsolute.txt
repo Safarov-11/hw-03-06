@@ -12,3 +12,4 @@ C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\re
 C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.pdb
 C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.genruntimeconfig.cache
 C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\ref\shablon_consoli.dll
+C:\Users\admin\OneDrive\Desktop\C# 3month\dapper\class-02-06\obj\Debug\net9.0\shablon_consoli.sourcelink.json

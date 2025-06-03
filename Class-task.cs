@@ -1,31 +1,31 @@
-﻿ List<City> cities = new List<City>
-        {
-            new City { Id = 1, Name = "Dushanbe" },
-            new City { Id = 2, Name = "Khujand" },
-            new City { Id = 3, Name = "Bokhtar" },
-            new City { Id = 4, Name = "Kulob" },
-            new City { Id = 5, Name = "Dushanbe" },
-            new City { Id = 6, Name = "Tursunzoda" },
-            new City { Id = 7, Name = "Dushanbe" },
-            new City { Id = 8, Name = "Vahdat" },
-            new City { Id = 9, Name = "Asht" },
-            new City { Id = 10, Name = "Hisor" }
-        };
+﻿List<City> cities = new List<City>
+{
+    new City { Id = 1, Name = "Dushanbe" },
+    new City { Id = 2, Name = "Khujand" },
+    new City { Id = 3, Name = "Bokhtar" },
+    new City { Id = 4, Name = "Kulob" },
+    new City { Id = 5, Name = "Dushanbe" },
+    new City { Id = 6, Name = "Tursunzoda" },
+    new City { Id = 7, Name = "Dushanbe" },
+    new City { Id = 8, Name = "Vahdat" },
+    new City { Id = 9, Name = "Asht" },
+    new City { Id = 10, Name = "Hisor" }
+};
 
 
-        List<Person> persons = new List<Person>
-        {
-            new Person { Id = 1, Name = "Ali", Age = 25, CityId = 1 },
-            new Person { Id = 2, Name = "Zarina", Age = 30, CityId = 2 },
-            new Person { Id = 3, Name = "Farrukh", Age = 22, CityId = 3 },
-            new Person { Id = 4, Name = "Nargis", Age = 28, CityId = 4 },
-            new Person { Id = 5, Name = "Kamol", Age = 35, CityId = 5 },
-            new Person { Id = 6, Name = "Malika", Age = 6, CityId = 6 },
-            new Person { Id = 7, Name = "Islom", Age = 27, CityId = 7 },
-            new Person { Id = 8, Name = "Dilrabo", Age = 23, CityId = 8 },
-            new Person { Id = 9, Name = "Shahrom", Age = 4, CityId = 9 },
-            new Person { Id = 10, Name = "Madina", Age = 26, CityId = 10 }
-        };
+List<Person> persons = new List<Person>
+{
+   new Person { Id = 1, Name = "Ali", Age = 25, CityId = 1 },
+   new Person { Id = 2, Name = "Zarina", Age = 30, CityId = 2 },
+   new Person { Id = 3, Name = "Farrukh", Age = 22, CityId = 3 },
+   new Person { Id = 4, Name = "Nargis", Age = 28, CityId = 4 },
+   new Person { Id = 5, Name = "Kamol", Age = 35, CityId = 5 },
+   new Person { Id = 6, Name = "Malika", Age = 6, CityId = 6 },
+   new Person { Id =  7, Name = "Islom", Age = 27, CityId = 7 },
+   new Person { Id = 8, Name = "Dilrabo", Age = 23, CityId = 8 },
+   new Person { Id = 9, Name = "Shahrom", Age = 4, CityId = 9 },
+   new Person { Id = 10, Name = "Madina", Age = 26, CityId = 10 }
+};
 
 
 
